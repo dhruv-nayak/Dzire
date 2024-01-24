@@ -1,0 +1,4 @@
+TYPE_D
+TYPE_B
+TYPE_A
+TYPE_C

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044903052208",
+    "firebase_url": "https://dzire-ebe96.firebaseio.com",
+    "project_id": "dzire-ebe96",
+    "storage_bucket": "dzire-ebe96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044903052208:android:611d7aaba0ea4c36134c75",
+        "android_client_info": {
+          "package_name": "com.example.dzire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044903052208-8aiqdnhlja1h2oj6j50co5m9qcvc8o9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0ZQxwE0akUsaxUKluw-dwHtHQRrPvNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044903052208-8aiqdnhlja1h2oj6j50co5m9qcvc8o9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

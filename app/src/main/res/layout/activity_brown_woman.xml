@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".BrownWoman">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="425dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Colors Mathes With Your Skin Tone "
+            android:textAlignment="center"
+            android:textColor="@color/neonblue"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/flip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/amazon_store"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="165dp" />
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Press On Color to know Matching Bottom-Wear "
+            android:textAlignment="center"
+            android:textColor="@color/neonblue"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Earth Tones"
+            android:textColor="@color/neonblue" />
+
+        <ImageView
+            android:id="@+id/et"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Light grey, white, blue, black"
+
+            android:background="@drawable/earth_tone"
+
+
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Blue, black, light brown, white"
+            android:background="@drawable/green"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="orange" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/orange"
+            android:tooltipText="Best Matches With White, red, pink, black, blue"
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="Olive" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Maroon, white, green, red, black"
+            android:background="@drawable/olive"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+
+        <ImageView
+            android:id="@+id/blue"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/blue"
+            tools:layout_editor_absoluteX="3dp"
+            android:tooltipText="Best Matches With White, black, pink, grey , green skirt  "
+            tools:layout_editor_absoluteY="411dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navy" />
+
+        <ImageView
+            android:id="@+id/navy"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/navy"
+            android:tooltipText="Best Matches With Pink, orange, black, white, golden ,red"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pink" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/pink"
+            android:tooltipText="Best Matches With Blue, black, white, light grey"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emerald" />
+
+        <ImageView
+            android:id="@+id/emarald"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Mustard, yellow, green, white, black"
+            android:background="@drawable/emerald"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Burgundy" />
+
+        <ImageView
+            android:id="@+id/burgundy"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Black , white, light grey, light pink "
+            android:background="@drawable/burgandy"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pastels" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/pastels"
+            android:tooltipText="Best Matches With White, light grey, blue"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+    </LinearLayout>
+    </FrameLayout>
+
+
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context=".upload">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Upload image to Increase Our Image Classification Model Efficiency"
+        android:gravity="center"
+        android:layout_below="@+id/layout_button"
+        android:background="@color/butto"
+        android:textColor="@color/neonblue"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="0dp"
+            android:background="@drawable/ic_bw_button"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/neonblue"
+
+
+            android:text="Choose" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:textColor="@color/neonblue"
+
+
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_bw_button"
+            android:text="Upload" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="370dp"
+        android:layout_height="440dp"
+        android:layout_above="@id/layout_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp" />
+
+
+
+</RelativeLayout>

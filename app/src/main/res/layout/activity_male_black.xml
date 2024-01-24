@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MaleBlack">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:textColor="@color/neonblue"
+            android:layout_height="wrap_content"
+            android:text="Colors Mathes With Your Skin Tone "
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/flip"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/amazon_store"
+             />
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Press On Color to know Matching Bottom-Wear "
+            android:textAlignment="center"
+            android:textColor="@color/neonblue"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lavander" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Light grey, black, light blue"
+
+            android:background="@drawable/lavender"
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baby Blue" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/baby_blue"
+            android:tooltipText="Best Matches With Light gray ,light brown, light blue, white"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olive Green" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Black, creamy, light blue, white"
+            android:background="@drawable/olive"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_gravity="center" android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jade Green" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/jade_green"
+            android:tooltipText="Best Matches With Blue, creamy ,black"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mint" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Black, blue, grey, light gray"
+            android:background="@drawable/mint"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With  Grey, light blue, dark blue, creamy, white"
+            android:background="@drawable/black"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/red"
+            android:tooltipText="Best Matches With Light grey, black, blue"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Orange" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With White, dark blue, black "
+            android:background="@drawable/light_orange"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/white_color"
+            tools:layout_editor_absoluteX="3dp"
+            android:tooltipText="Best Matches With  dark blue, black "
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maroon" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:tooltipText="Best Matches With Light grey, black, blue"
+            android:background="@drawable/maroon"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grey" />
+
+        <ImageView
+            android:id="@+id/grey"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/grey"
+            android:tooltipText="Best Matches With Black, blue, white"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cobalt Blue" />
+
+        <ImageView
+            android:id="@+id/cb"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/cobalt_blue"
+            android:tooltipText="Best Matches With Black, light grey"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+    </LinearLayout>
+</FrameLayout>
+
+</ScrollView>

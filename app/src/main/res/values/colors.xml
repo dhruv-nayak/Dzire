@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="neonblue">#00f9ff</color>
+    <color name="button">#233D53</color>
+    <color name="neonblue1">#8ffcff</color>
+    <color name="butto">#6200EE</color>
+    <color name="gb">#FFD428</color>
+    <color name="gb1">#F54B64</color>
+    <color name="gb3"> #2F4353
+    </color>
+    <color name="gb4"> #442C2E
+    </color>
+
+    <color name="gb2">#FEDBD0</color>
+
+
+    <color name="textGreen">#47AF88</color>
+    <color name="textGreen1">#171D1B</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="border">#D9E1E7</color>
+    <color name="login_button">#5987C5</color>
+    <color name="card_border">#809FB8</color>
+    <color name="cherry_red">#D2042D</color>
+    <color name="peach">#FFE5B4</color>
+    <color name="download_button">#FF2DAB</color>
+    <color name="greenBorder">#74F65A</color>
+    <color name="greenFil">#DFFFD8</color>
+    <color name="card_green">#D4FFB8</color>
+    <color name="card_yellow">#FFF9CA</color>
+    <color name="card_pink">#FFBBD3</color>
+    <color name="card_purple">#C2B7FC</color>
+    <color name="card_big_cyan">#B1F3E4</color>
+    <color name="card_sky">#B8FDFF</color>
+    <color name="dullBg">#EEEADE</color>
+    <color name="card1">#FF9B9B</color>
+    <color name="card2">#FFD6A5</color>
+    <color name="card3">#FFFEC4</color>
+    <color name="card4">#CBFFA9</color>
+    <color name="matchfont">#000080</color>
+    <color name="bottomsheetbutton">#4676D1</color>
+    <color name="charBlack">#36454F</color>
+    <color name="steel">#808495</color>
+
+    <color name="fabback">#D7E5CA</color>
+    <color name="dropfill">#F3EDF7</color>
+    <color name="tabfill">#D2E0FB</color>
+    <color name="listfill">#49454F</color>
+    <color name="strokefill">#79747E</color>
+    <color name="popupbutton">#4676D1</color>
+    <color name="root">#70000000</color>
+    <color name="part1chip">#F66565</color>
+    <color name="part2chip">#FAFF00</color>
+    <color name="part3chip"> #43DF5C</color>
+    <color name="editfont"> #4676D1</color>
+    <color name="abckback">#FEF7FF</color>
+    <color name="font"> #1D1B20</color>
+    <color name="backvA">  #DCCFF0</color>
+    <color name="backgreenish">   #F7FDFF</color>
+
+    <color name="chipdisable">  #49454F1F</color>
+    <color name="readYellow"> #FFEF73</color>
+    <color name="playcolor"> #1AE8F5</color>
+    <color name="volumeup">   #003E9C</color>
+    <color name="popContinue">     #FF6C22</color>
+    <color name="popno">   #F60000</color>
+    <color name="levelcard">#D2E0FB</color>
+    <color name="loginback">#F8FDCF</color>
+    <color name="loginbutton">#FE7449</color>
+    <color name="logintext"> #274A79</color>
+    <color name="popb">#CEF7F7</color>
+    <color name="sightblue">#677EF9</color>
+    <color name="dolchcardtint">#309889</color>
+</resources>
+

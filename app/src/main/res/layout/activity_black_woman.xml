@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".BlackWoman">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colors Mathes With Your Skin Tone "
+            android:textAlignment="center"
+            android:textColor="@color/neonblue"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/flip"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/amazon_store"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Press On Color to know Matching Bottom-Wear "
+            android:textAlignment="center"
+            android:textColor="@color/neonblue"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/jt"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jewel Tones"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/jewel"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:clickable="true"
+            android:tooltipText="Best matches with Black, Teal and Orchid color Bottom Wear "
+
+
+            android:background="@drawable/jewel_tones"
+
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <TextView
+
+            android:id="@+id/p"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plum" />
+
+        <ImageView
+            android:id="@+id/plum"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/plum"
+            android:tooltipText="Best matches with Blue, white, blue,silver"
+
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <TextView
+            android:id="@+id/w"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White" />
+
+        <ImageView
+            android:id="@+id/white"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/white_color"
+            android:tooltipText="Best matches with Orange, dark blue, navy blue, pink, creamy "
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="583dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:tooltipText="Best matches with Blue, purple, black, white"
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/orange"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pink" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:tooltipText="Best matches with Blue, black, white, light grey "
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/pink"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow" />
+
+        <ImageView
+            android:id="@+id/yellow"
+            android:tooltipText="Best matches with White, blue, black, pink, maroon "
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/yellow"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruby" />
+
+        <ImageView
+            android:id="@+id/runby"
+            android:tooltipText="Best matches with Light creamy, black, Yellow"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/ruby"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fuchsia" />
+
+        <ImageView
+            android:id="@+id/fuchia"
+            android:tooltipText="Best matches with Orange skirt , light blue jeans "
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/fuchsia"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Royal Blue" />
+
+        <ImageView
+            android:id="@+id/rb"
+            android:tooltipText="Best matches with Mustard, white, yellow, maroon, grey  "
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/royal_blue"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:textStyle="bold"
+            android:textColor="@color/neonblue"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blush" />
+
+        <ImageView
+            android:id="@+id/blush"
+            android:tooltipText="Best matches with White pant,  black, light blue"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@drawable/blush"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+    </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+</ScrollView>

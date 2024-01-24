@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:visibility="visible"
+    tools:context=".gender">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/image"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+
+
+            android:layout_marginBottom="5dp"
+            android:background="@color/butto"
+            android:text="Checkout Our Gender Detection Model"
+            android:textAlignment="center"
+            android:textColor="@color/neonblue1"
+            android:textSize="20dp" />
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:layout_above="@+id/selectImage"
+
+
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="05dp" />
+
+        <Button
+            android:id="@+id/selectImage"
+            android:layout_width="236dp"
+
+            android:layout_height="79dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/neonblue"
+            android:gravity="center"
+
+
+
+
+            android:background="@drawable/ic_bw_button"
+            android:text="Select Image"
+             />
+
+        <TextView
+            android:id="@+id/text"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+
+
+
+            android:layout_below="@+id/selectImage"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+             />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/text"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/butto"
+            android:gravity="center"
+
+            android:layout_marginTop="0dp"
+            android:text="Or You Can Choose Manually"
+            android:textColor="@color/neonblue1"
+            android:textSize="20dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/male"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+
+
+                android:layout_marginStart="23dp"
+
+
+                android:background="@drawable/ic_male"
+
+
+                android:fitsSystemWindows="true" />
+
+
+            <Button
+                android:id="@+id/female"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/textView1"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginLeft="320dp"
+
+
+                android:layout_marginEnd="23dp"
+
+
+                android:background="@drawable/ic_female"
+
+                android:fitsSystemWindows="true" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="580dp"
+                android:text="MALE"
+
+
+                android:textColor="@color/neonblue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="580dp"
+                android:layout_marginEnd="30dp"
+                android:text="FEMALE"
+
+
+                android:textColor="@color/neonblue"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
+
