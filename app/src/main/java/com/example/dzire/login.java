@@ -51,7 +51,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
         authi = FirebaseAuth.getInstance();
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("1044903052208-8aiqdnhlja1h2oj6j50co5m9qcvc8o9g.apps.googleusercontent.com")
+                .requestIdToken("*********")
 
                 .requestEmail()
                 .build();
